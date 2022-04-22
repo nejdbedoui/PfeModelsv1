@@ -12,9 +12,9 @@ import java.util.Date;
 @Document
 public class PubliciteMobile {
     @Id
-    private String IdPubMobile;
-    private String IdActionMarketing;
-    private String IdApplicationCible;
+    private String idPubMobile;
+    private String idActionMarketing;
+    private String idApplicationCible;
     @Temporal(TemporalType.TIMESTAMP)
-    private Date DateDiffusion;
+    private Date dateDiffusion;
 }

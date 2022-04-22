@@ -12,10 +12,10 @@ import java.util.Date;
 @Document
 public class PubliciteSMS {
     @Id
-    private String IdPubliciteSMS;
-    private String IdActionMarketing;
-    private String NumeroCible;
-    private String Body;
+    private String idPubliciteSMS;
+    private String idActionMarketing;
+    private String numeroCible;
+    private String body;
     @Temporal(TemporalType.TIMESTAMP)
-    private Date DateEnvoi;
+    private Date dateEnvoi;
 }

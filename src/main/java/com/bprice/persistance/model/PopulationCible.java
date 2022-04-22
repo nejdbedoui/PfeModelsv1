@@ -8,9 +8,9 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Document
 public class PopulationCible {
     @Id
-    private String IdPopulationCible;
-    private String IdActionMarketing;
-    private String Age;//30-40
-    private String Sexe;//h,f,h-f
-    private String Ville;
+    private String idPopulationCible;
+    private String idActionMarketing;
+    private String age;//30-40
+    private String sexe;//h,f,h-f
+    private String ville;
 }

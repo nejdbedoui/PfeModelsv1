@@ -12,18 +12,18 @@ import java.util.Date;
 @Document
 public class Contrat {
     @Id
-    private String IdContrat;
-    private String IdActionMarketing;
-    private String IdPartenaire;
-    private String NumeroContrat;
-    private String StatutContrat;
-    private String StatutAction;
-    private String LibelleCanalDiffusion;
-    private String DescriptionAction;
+    private String idContrat;
+    private String idActionMarketing;
+    private String idPartenaire;
+    private String numeroContrat;
+    private String statutContrat;
+    private String statutAction;
+    private String libelleCanalDiffusion;
+    private String descriptionAction;
     @Temporal(TemporalType.TIMESTAMP)
-    private Date DateDebut;
+    private Date dateDebut;
     @Temporal(TemporalType.TIMESTAMP)
-    private Date DateFin;
+    private Date dateFin;
     @Temporal(TemporalType.TIMESTAMP)
-    private Date DateCreation;
+    private Date dateCreation;
 }

@@ -12,11 +12,11 @@ import java.util.Date;
 @Document
 public class Facture {
     @Id
-    private String IdFacture;
-    private String IdContrat;
-    private String NumeroFacture;
-    private String Statut;
-    private String Montant;
+    private String idFacture;
+    private String idContrat;
+    private String numeroFacture;
+    private String statut;
+    private String montant;
     @Temporal(TemporalType.TIMESTAMP)
-    private Date DateCreation;
+    private Date dateCreation;
 }

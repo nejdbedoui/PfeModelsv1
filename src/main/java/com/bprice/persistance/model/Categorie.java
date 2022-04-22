@@ -8,8 +8,8 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Document
 public class Categorie {
     @Id
-    private String IdCategorie;
-    private String IdActionMarketing;
-    private String Libelle;
-    private String Description;
+    private String idCategorie;
+    private String idActionMarketing;
+    private String libelle;
+    private String description;
 }

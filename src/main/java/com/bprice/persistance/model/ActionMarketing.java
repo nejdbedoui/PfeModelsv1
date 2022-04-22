@@ -12,20 +12,20 @@ import java.util.Date;
 @Document
 public class ActionMarketing {
     @Id
-    private String IdActionMarketing;
-    private String IdPartenaire;
-    private String Url;
-    private String Description;
-    private String SMSBody;
-    private String LibelleCanalDiffusion;//tv mobile sms
+    private String idActionMarketing;
+    private String idPartenaire;
+    private String url;
+    private String description;
+    private String smsBody;
+    private String libelleCanalDiffusion;//tv mobile sms
     @Temporal(TemporalType.TIMESTAMP)
-    private Date DateDebut;
+    private Date dateDebut;
     @Temporal(TemporalType.TIMESTAMP)
-    private Date DateFin;
-    private int Frequence;
-    private String TypeAffichageMobile;//pop up banniere notification
-    private String TypeContenue; //image video
-    private String Statut;//crée ,accepter ,refuser ,en cours diffusion
+    private Date dateFin;
+    private int frequence;
+    private String typeAffichageMobile;//pop up banniere notification
+    private String typeContenue; //image video
+    private String statut;//crée ,accepter ,refuser ,en cours diffusion
     @Temporal(TemporalType.TIMESTAMP)
-    private Date DateCreation;
+    private Date dateCreation;
 }

@@ -8,11 +8,11 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Document
 public class Statistique {
     @Id
-    private String IdStatistique;
-    private String IdActionMarketing;
-    private int NombreDiffusionMobile;
-    private int NombreDiffusionTv;
-    private int NombreEnvoieSms;
-    private int NombreClick;
-    private int NombrePartage;
+    private String idStatistique;
+    private String idActionMarketing;
+    private int nombreDiffusionMobile;
+    private int nombreDiffusionTv;
+    private int nombreEnvoieSms;
+    private int nombreClick;
+    private int nombrePartage;
 }

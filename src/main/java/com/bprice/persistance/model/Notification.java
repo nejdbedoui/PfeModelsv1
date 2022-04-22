@@ -12,11 +12,11 @@ import java.util.Date;
 @Document
 public class Notification {
     @Id
-    private String IdNotfication;
-    private String IdActionMarketing;
-    private String IdApplicationCible;
-    private String TypeNotification;
-    private String Body;
+    private String idNotfication;
+    private String idActionMarketing;
+    private String idApplicationCible;
+    private String typeNotification;
+    private String body;
     @Temporal(TemporalType.TIMESTAMP)
-    private Date DateEnvoi;
+    private Date dateEnvoi;
 }
