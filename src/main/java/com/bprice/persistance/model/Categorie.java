@@ -9,7 +9,6 @@ import org.springframework.data.mongodb.core.mapping.Document;
 public class Categorie {
     @Id
     private String idCategorie;
-    private String idActionMarketing;
     private String libelle;
     private String description;
 }
