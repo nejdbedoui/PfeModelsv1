@@ -11,4 +11,6 @@ public class Categorie {
     private String idCategorie;
     private String libelle;
     private String description;
+
+
 }

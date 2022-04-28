@@ -19,7 +19,8 @@ public class ActionMarketing {
     private String idPopulationCible;
     private String libelleCanalDiffusion;//tv mobile sms
     private String typeContenue; //image video
-    private List<String> url;
+    private List<String> urlContenue;
+    private String url;
     private String description;
     private String smsBody;
     @Temporal(TemporalType.TIMESTAMP)
