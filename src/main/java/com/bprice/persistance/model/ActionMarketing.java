@@ -29,7 +29,7 @@ public class ActionMarketing {
     private Date dateFin;
     private int frequence;
     private String typeAffichageMobile;//pop up banniere notification
-    private String statut;//crée ,accepter ,refuser ,en cours diffusion
+    private int statut;//crée ,accepter ,refuser ,en cours diffusion
     @Temporal(TemporalType.TIMESTAMP)
     private Date dateCreation;
 }
