@@ -15,7 +15,9 @@ public class ActionMarketing {
     @Id
     private String idActionMarketing;
     private String idPartenaire;
+    private String nomPartenaire;
     private String idCategorie;
+    private String libelleCategorie;
     private String idPopulationCible;
     private String titre;////
     private String libelleCanalDiffusion;//tv mobile sms

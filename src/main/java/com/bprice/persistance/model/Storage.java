@@ -15,8 +15,5 @@ public class Storage {
     private String name;
     private String type;
     private long size;
-    @Lob
-    private byte[] imagedata;
 
-    private InputStream videodata;
 }
