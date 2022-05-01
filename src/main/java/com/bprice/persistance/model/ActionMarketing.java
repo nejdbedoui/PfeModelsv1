@@ -17,11 +17,12 @@ public class ActionMarketing {
     private String idPartenaire;
     private String idCategorie;
     private String idPopulationCible;
+    private String titre;////
     private String libelleCanalDiffusion;//tv mobile sms
     private String typeContenue; //image video
     private List<String> urlContenue;
     private String url;
-    private String description;
+    private String description;////
     private String smsBody;
     @Temporal(TemporalType.TIMESTAMP)
     private Date dateDebut;
