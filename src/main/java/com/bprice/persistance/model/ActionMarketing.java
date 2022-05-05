@@ -19,10 +19,10 @@ public class ActionMarketing {
     private String idCategorie;
     private String libelleCategorie;
     private String idPopulationCible;
+    private String idStorage;
     private String titre;////
     private String libelleCanalDiffusion;//tv mobile sms
     private String typeContenue; //image video
-    private List<String> urlContenue;
     private String url;
     private String description;////
     private String smsBody;

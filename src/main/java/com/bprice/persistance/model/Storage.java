@@ -14,6 +14,7 @@ public class Storage {
     private String idStorage;
     private String name;
     private String type;
+    private String url;
     private long size;
 
 }
