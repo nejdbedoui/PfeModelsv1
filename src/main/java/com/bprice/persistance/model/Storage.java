@@ -4,8 +4,6 @@ import lombok.Data;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-import javax.persistence.Lob;
-import java.io.InputStream;
 
 @Data
 @Document

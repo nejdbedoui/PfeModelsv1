@@ -21,9 +21,9 @@ public class ActionMarketing {
     private String idPopulationCible;
     private String idStorage;
     private String titre;////
-    private String libelleCanalDiffusion;//tv mobile sms
-    private String typeContenue; //image video
-    private String url;
+    private int libelleCanalDiffusion;//tv mobile sms
+    private int typeContenue; //image video
+    private String externUrl;
     private String description;////
     private String smsBody;
     @Temporal(TemporalType.TIMESTAMP)
@@ -31,7 +31,7 @@ public class ActionMarketing {
     @Temporal(TemporalType.TIMESTAMP)
     private Date dateFin;
     private int frequence;
-    private String typeAffichageMobile;//pop up banniere notification
+    private int typeAffichageMobile;//pop up banniere notification
     private int statut;//crée ,accepter ,refuser ,en cours diffusion
     @Temporal(TemporalType.TIMESTAMP)
     private Date dateCreation;

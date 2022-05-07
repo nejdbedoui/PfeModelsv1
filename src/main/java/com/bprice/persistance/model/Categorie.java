@@ -5,12 +5,11 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 @Data
-@Document
+@Document(collection ="sector")
 public class Categorie {
     @Id
-    private String idCategorie;
-    private String libelle;
-    private String description;
-
-
+    private String idClientType;
+    private String code;
+    private String designation;
+    private int fActif;
 }
