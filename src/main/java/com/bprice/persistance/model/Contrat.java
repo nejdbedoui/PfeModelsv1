@@ -16,7 +16,7 @@ public class Contrat {
     private String idActionMarketing;
     private String idPartenaire;
     private String numeroContrat;
-    private String statutContrat;
+    private int statutContrat;
 
     private String descriptionAction;
     @Temporal(TemporalType.TIMESTAMP)
