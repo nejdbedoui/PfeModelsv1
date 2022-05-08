@@ -4,6 +4,8 @@ import lombok.Data;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
+import java.util.List;
+
 @Data
 @Document
 public class PopulationCible {
@@ -11,5 +13,5 @@ public class PopulationCible {
     private String idPopulationCible;
     private String age;//30-40
     private String sexe;//h,f,h-f
-    private String ville;
+    private List<String> ville;
 }
