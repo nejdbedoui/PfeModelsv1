@@ -12,6 +12,6 @@ public class PopulationCible {
     @Id
     private String idPopulationCible;
     private String age;//30-40
-    private String sexe;//h,f,h-f
+    private int sexe;//h,f,h-f
     private List<String> ville;
 }
