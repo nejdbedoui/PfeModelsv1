@@ -7,7 +7,6 @@ import org.springframework.data.mongodb.core.mapping.Document;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 import java.util.Date;
-import java.util.List;
 
 @Data
 @Document
@@ -20,6 +19,7 @@ public class ActionMarketing {
     private String idStorage;
     private String idCanaldiffusion;
     private String idFormatAffichage;
+    private String idParametreAction;
     private String titre;////
     private int typeContenue; //image video
     private String externUrl;
