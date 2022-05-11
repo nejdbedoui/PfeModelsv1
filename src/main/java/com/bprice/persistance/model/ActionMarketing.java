@@ -20,6 +20,7 @@ public class ActionMarketing {
     private String idStorage;
     private String idCanaldiffusion;
     private String idFormatAffichage;
+    private List<String> secteurcible;
     private String titre;////
     private int typeContenue; //image video
     private String externUrl;
