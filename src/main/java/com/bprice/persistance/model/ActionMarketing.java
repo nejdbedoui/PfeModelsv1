@@ -7,6 +7,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 import java.util.Date;
+import java.util.List;
 
 @Data
 @Document
@@ -19,13 +20,10 @@ public class ActionMarketing {
     private String idStorage;
     private String idCanaldiffusion;
     private String idFormatAffichage;
-
     private List<String> secteurcible;
-
     private String idParametreAction;
-
-    private String titre;////
-    private int typeContenue; //image video
+    private String titre;
+    private int typeContenue;
     private String externUrl;
     private String description;////
     private String smsBody;
@@ -34,7 +32,7 @@ public class ActionMarketing {
     @Temporal(TemporalType.TIMESTAMP)
     private Date dateFin;
     private int frequence;
-    private int statut;//crée ,accepter ,refuser ,en cours diffusion
+    private int statut;
     @Temporal(TemporalType.TIMESTAMP)
     private Date dateCreation;
 }
