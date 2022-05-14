@@ -7,6 +7,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 import java.util.Date;
+import java.util.List;
 
 @Data
 @Document
