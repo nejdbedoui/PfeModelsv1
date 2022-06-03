@@ -14,7 +14,7 @@ public class PubliciteMobile {
     @Id
     private String idPubMobile;
     private String idActionMarketing;
-    private String idApplicationCible;
+    private String idClientCible;
     @Temporal(TemporalType.TIMESTAMP)
     private Date dateDiffusion;
 }
