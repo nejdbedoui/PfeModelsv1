@@ -8,11 +8,10 @@ import java.util.List;
 
 @Data
 @Document
-public class PopulationCible {
+public class TypeAffichage {
     @Id
-    private String idPopulationCible;
-    private List<Integer> age;//30-40
-    private int sexe;//h,f,h-f
+    private String idTypeAffichage;
+    private String libelle;
     private int fActif;
-    private List<String> ville;
+
 }

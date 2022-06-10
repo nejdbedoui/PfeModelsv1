@@ -1,25 +1,19 @@
 package com.bprice.persistance.model;
-
-import lombok.Data;
 import org.springframework.data.annotation.Id;
+import lombok.Data;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 import java.util.Date;
-import java.util.List;
 
 @Data
 @Document
-public class PubliciteMobile {
+public class DemandeActionMarketing {
     @Id
-    private String idPubMobile;
-    private String idActionMarketing;
-    private String idClientCible;
+    String idDemandeActionMarketing;
+    String idPartenaire;
     private int statut;
-    private int frequenceDiffusionRestante;
-    private String lienPublicite;
-    private List<String> partenaireCiblesId;
     @Temporal(TemporalType.TIMESTAMP)
-    private Date dateDiffusion;
+    private Date dateCreation;
 }
