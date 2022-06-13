@@ -33,6 +33,7 @@ public class ActionMarketing {
     private Date dateFin;
     private int frequence;
     private int statut;
+    private int notification;
     @Temporal(TemporalType.TIMESTAMP)
     private Date dateCreation;
 }
