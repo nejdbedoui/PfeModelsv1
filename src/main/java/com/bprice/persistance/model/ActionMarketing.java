@@ -23,6 +23,7 @@ public class ActionMarketing {
     private List<String> secteurcible;
     private String idParametreAction;
     private String titre;
+    private String idTypeAffichage;
     private int typeContenue;
     private String externUrl;
     private String description;////

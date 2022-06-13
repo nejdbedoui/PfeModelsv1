@@ -11,8 +11,10 @@ import java.util.Date;
 @Document
 public class DemandeActionMarketing {
     @Id
-    String idDemandeActionMarketing;
-    String idPartenaire;
+    private String idDemandeActionMarketing;
+    private String idPartenaire;
+    private String idActionMarketing;
+    private int notification;
     private int statut;
     @Temporal(TemporalType.TIMESTAMP)
     private Date dateCreation;
