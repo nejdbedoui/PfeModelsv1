@@ -14,7 +14,11 @@ import java.util.List;
 public class ParametreActionMarketing {
     @Id
     private String idParametreAction;
-    List<String> listeidPartenaire;
+    private String idActionMarketing;
+    private String idUtilisateur;
+    private String idPartenaireCible;
+    private int prix;
+    private int statut;
     @Temporal(TemporalType.TIMESTAMP)
     private Date dateCreation;
 

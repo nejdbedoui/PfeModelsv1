@@ -1,7 +1,6 @@
 package com.bprice.persistance.model;
-
-import lombok.Data;
 import org.springframework.data.annotation.Id;
+import lombok.Data;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import javax.persistence.Temporal;
@@ -12,10 +11,9 @@ import java.util.Date;
 @Document
 public class DemandeActionMarketing {
     @Id
-    private String idDemande;
-    private String idPartenaire;
-    private String idAction;
-    private int notification;
+    String idDemandeActionMarketing;
+    String idPartenaire;
+    private int statut;
     @Temporal(TemporalType.TIMESTAMP)
     private Date dateCreation;
 }
