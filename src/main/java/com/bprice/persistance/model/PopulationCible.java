@@ -11,7 +11,8 @@ import java.util.List;
 public class PopulationCible {
     @Id
     private String idPopulationCible;
-    private List<Integer> age;//30-40
+    private int ageMin;//30-40
+    private int ageMax;
     private int sexe;//h,f,h-f
     private int fActif;
     private List<String> ville;
