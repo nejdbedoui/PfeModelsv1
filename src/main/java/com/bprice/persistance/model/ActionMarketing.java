@@ -37,4 +37,6 @@ public class ActionMarketing {
     public int notification;
     @Temporal(TemporalType.TIMESTAMP)
     private Date dateCreation;
+    private int notification;
+    private boolean auto;
 }
